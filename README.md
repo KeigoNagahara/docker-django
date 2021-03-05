@@ -16,15 +16,17 @@ $ touch docker-compose.yml Dockerfile requirements.txt
 $ docker-compose run web django-admin startproject docker_django .
 
 setting.pyにDB情報追記  
+```
     DATABASES = {
      'default': {
      'ENGINE': 'django.db.backends.mysql',
      'NAME': 'django_docker',
      'USER': 'root',
      'HOST': ‘db’,
-     'POST': 33306
+     'POST': 3306
      }
-    }
+    }  
+```
 
 参考URLになかったがSTATIC_URLが設定されてないと怒られたので  
 staticフォルダをつきってsettings.pyに  
