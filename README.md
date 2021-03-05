@@ -49,7 +49,7 @@ dockerを起動するにはDocker Desktop for mac (mac) が必要（ここにコ
 
 https://docs.docker.jp/docker-for-mac/install.html
 
-pythonの識別子で-禁止（最初プロジェクト名につかってしまった）
+pythonの識別子で-禁止（最初プロジェクト名につかってしまった)  
 https://blog.aristo-solutions.net/2018/05/djangocommanderror-is-not-valid-project_22.html
 
 # 起動
